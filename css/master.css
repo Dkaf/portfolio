@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 400;
+}
+/*Header*/
+body {
+  height: 100vh;
+  position: relative;
+}
+a {
+  color: black;
+}
+a :active {
+  color: black;
+}
+#name {
+  text-align: left;
+  font-size: 8em;
+  margin: 0;
+  padding-top: 5%;
+}
+.short_bio {
+  font-size: 1.5em;
+}
+#contact_info {
+  text-align: right;
+}
+.down_arrow {
+  position: absolute;
+  left: 50%;
+  top: 94%;
+  color: black;
+}
+.right_arrow {
+  position: absolute;
+  left: 98%;
+  top: 45%;
+  color: black;
+}
+.up_arrow {
+  position: relative;
+  left: 50%;
+}
+.left_arrow {
+  position: absolute;
+  right: 98%;
+  top: 45%;
+}
+/*Project*/
+.screenshot {
+  height: 500px;
+}
+.project_div {
+  font-size: 1em;
+  text-align: center;
+}
+.project_title {
+  text-align: center;
+  font-size: 2.5em;
+}
+.project_link {
+  font-size: 1.4em;
+  color: black;
+  display: block;
+}
+.section_title {
+  font-size: 1.7em;
+}
+.section_div {
+  margin: 0 auto;
+}
+.technology_list {
+  font-size: 1.4em;
+  list-style: none;
+}
+.description_div {
+  margin: 0 auto;
+}
+.description {
+  font-size: 1.4em;
+}
+/*Keyframes*/
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+/*Transitions*/
+.m-scene {
+  /** Basic styles for an animated element */
+  /** An element that fades in */
+  /** An element that fades in and slides up */
+  /** An element that fades in and slides from the right */
+}
+.m-scene .scene_element {
+  -webkit-animation-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.m-scene .scene_element--fadein {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.m-scene .scene_element--fadeinup {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.m-scene .scene_element--fadeinright {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.m-scene.is-exiting .scene_element {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse;
+}
