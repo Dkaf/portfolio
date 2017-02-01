@@ -23,6 +23,9 @@ a :active {
 .short_bio {
   font-size: 1.5em;
 }
+.contact {
+  font-size: 1.2em;
+}
 #contact_info {
   text-align: right;
 }
