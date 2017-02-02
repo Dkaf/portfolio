@@ -32,7 +32,7 @@ a :active {
 .down_arrow {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 0)
+  transform: translate(-50%, 0);
   bottom: 0;
   color: black;
 }
