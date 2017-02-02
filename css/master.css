@@ -32,12 +32,14 @@ a :active {
 .down_arrow {
   position: absolute;
   left: 50%;
-  top: 94%;
+  transform: translate(-50%, 0)
+  bottom: 0;
   color: black;
 }
 .right_arrow {
   position: absolute;
-  left: 98%;
+  right: 0;
+  transform: translate(0, -50%)
   top: 45%;
   color: black;
 }
