@@ -39,18 +39,21 @@ a :active {
 .right_arrow {
   position: absolute;
   right: 0;
-  transform: translate(0, -50%)
+  transform: translate(0, -50%);
   top: 45%;
   color: black;
 }
 .up_arrow {
   position: relative;
   left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
 }
 .left_arrow {
   position: absolute;
-  right: 98%;
-  top: 45%;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 /*Project*/
 .screenshot {
