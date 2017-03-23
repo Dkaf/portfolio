@@ -8,18 +8,70 @@
 		<link rel="stylesheet" href="css/master.css">
 		<link rel="stylesheet" href="css/mobile_styles.css">
 	</head>
-
 	<body>
-		<div class="m-scene" id="main">
-			<div class="scene_element scene_element--fadein">
-				<h1 id="name">Daniel <br> Kafer</h1>
-				<span class="short_bio">Developer.</span>
-				<span class="short_bio">Designer.</span>
-				<span class="short_bio">Technology Enthusiast.</span><br>
-				<span class="contact" id="phone">ph: 563.513.8911</span><br>
-				<span class="contact" id="email">email: daniel.j.kafer@gmail.com</span>
-				<a href="deck_builder.html"><i class="fa fa-angle-down fa-4x down_arrow" aria-hidden="true"></i></a>
-				<a href="satellite_app.html"><i class="fa fa-angle-right fa-4x right_arrow" aria-hidden="true"></i></a>
+		<div class="landing_page">
+			<h1 id="name">Daniel <br> Kafer</h1>
+			<span class="short_bio">Developer.</span>
+			<span class="short_bio">Designer.</span>
+			<span class="short_bio">Technology Enthusiast.</span><br>
+			<span class="contact" id="phone">ph: <a href="tel:+1-563-513-8911">563.513.8911</a></span><br>
+			<span class="contact" id="email">email: <a href="mailto:daniel.j.kafer@gmail.com">daniel.j.kafer@gmail.com</a></span><br>
+			<span class="contact" id="github"><a href="https://github.com/Dkaf"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			<a href="deck_builder.html"><i class="fa fa-angle-down fa-4x down_arrow" aria-hidden="true"></i></a>
+		</div>
+		<div class="project_div" id="deck_builder_div">
+			<h2 class="project_title" id="deck_builder_title">Magic: the Gathering Deck Builder</h2>
+			<img class="screenshot" src="css/pictures/deck_builder_screenshot.png" alt="Deck builder main screen">
+			<img class="screenshot" src="css/pictures/deck_builder_deck_screenshot.png" alt="Deck builder deck">
+			<a class="project_link" href="https://dkaf.github.io/mtg_react_capstone/">MTG Deck Builder</a>
+			<div class="section_div technology_div">
+				<h3 class="section_title">Techologies used</h3>
+				<ul class="technology_list">
+					<li class="technology_list_item">React</li>
+					<li class="technology_list_item">nodeJS and npm</li>
+					<li class="technology_list_item">Mongoose</li>
+					<li class="technology_list_item">Webpack</li>
+					<li class="technology_list_item">MTG Api</li>
+				</ul>
+			</div>
+			<div class="section_div description_div">
+				<h3 class="section_title">Description</h3>
+				<p class="description">
+					This is an app I built for players of the Magic: the Gathering card game.<br>
+					It allows you to build decks from an archive of all cards for testing purposes.
+				</p>
+			</div>
+		</div>
+		<div class="project_div" id="satellite_app">
+			<h2 class="project_title" id="satellite_app_title">Satellite Image Timeline</h2>
+			<img class="screenshot" id="satellite_app_screenshot" src="css/pictures/satellite_timeline_screenshot.png" alt="satellite_timeline_screenshot">
+			<a class="project_link" href="https://dkaf.github.io/satellite-image-app/">Satellite Image Timeline</a>
+			<h3 class="section_title">Technologies Used</h3>
+			<ul class="technology_list">
+				<li class="technology_list_item">Jquery</li>
+				<li class="technology_list_item">NASA Api</li>
+				<li class="technology_list_item">Google Maps Api</li>
+			</ul>
+			<div class="section_div description_div">
+				<h3 class="section_title">Description</h3>
+				<p class="description">An app using Google maps and the NASA Api to show a satellite timeline of any location</p>
+			</div>
+		</div>
+		<div class="project_div" id="food_app">
+			<h2 class="project_title" id="food_app_title">Food Nutrition App</h2>
+			<img class="screenshot" id="food_app_screenshot" src="css/pictures/food_nutrition_quiz.png" alt="food_quiz_screenshot">
+			<a class="project_link" href="#">Food Nutrition App</a>
+			<h3 class="section_title">Technologies Used</h3>
+			<ul class="technology_list">
+				<li class="technology_list_item">React/React Slingshot</li>
+				<li class="technology_list_item">Redux</li>
+				<li class="technology_list_item">Spoonacular Api</li>
+				<li class="technology_list_item">Webpack</li>
+				<li class="technology_list_item">NodeJS</li>
+			</ul>
+			<div class="section_div description_div">
+				<h3 class="section_title">Description</h3>
+				<p class="description">This app offers a search to find healthier food options as well as a nutrition quiz.</p>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

@@ -14,6 +14,10 @@ a {
 a :active {
   color: black;
 }
+.landing_page{
+	height: 100%;
+	min-height: 100%:
+}
 #name {
   text-align: left;
   font-size: 8em;
@@ -39,21 +43,18 @@ a :active {
 .right_arrow {
   position: absolute;
   right: 0;
+  top: 50%;
   transform: translate(0, -50%);
-  top: 45%;
   color: black;
 }
 .up_arrow {
   position: relative;
   left: 50%;
-  transform: translate(-50%, 0);
-  top: 0;
 }
 .left_arrow {
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(0, -50%);
+  right: 98%;
+  top: 45%;
 }
 /*Project*/
 .screenshot {
@@ -62,6 +63,16 @@ a :active {
 .project_div {
   font-size: 1em;
   text-align: center;
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  /*background-color: #373B44;*/
+  height: 100vh;
+}
+.project_div:nth-child(even) {
+	background-color: rgb(224, 224, 224);
 }
 .project_title {
   text-align: center;
