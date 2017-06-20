@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta name="viewport" charset="utf-8" content="width=device-width">
 		<title>Daniel Kafer</title>
 		<script src="https://use.fontawesome.com/60c4bd1349.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
@@ -10,20 +10,20 @@
 	</head>
 	<body>
 		<div class="landing_page">
-			<h1 id="name">Daniel <br> Kafer</h1>
+			<div id="name_container">
+				<h1 id="name">Daniel Kafer</h1>
+			</div>
 			<span class="short_bio">Developer.</span>
 			<span class="short_bio">Designer.</span>
 			<span class="short_bio">Technology Enthusiast.</span><br>
-			<span class="contact" id="phone">ph: <a href="tel:+1-563-513-8911">563.513.8911</a></span><br>
-			<span class="contact" id="email">email: <a href="mailto:daniel.j.kafer@gmail.com">daniel.j.kafer@gmail.com</a></span><br>
+			<p class="contact" id="email">email: <a href="mailto:daniel.j.kafer@gmail.com">daniel.j.kafer@gmail.com</a></p>
 			<span class="contact" id="github"><a href="https://github.com/Dkaf"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-			<a href="deck_builder.html"><i class="fa fa-angle-down fa-4x down_arrow" aria-hidden="true"></i></a>
+			<i class="fa fa-angle-down fa-4x down_arrow" aria-hidden="true"></i>
 		</div>
 		<div class="project_div" id="deck_builder_div">
 			<h2 class="project_title" id="deck_builder_title">Magic: the Gathering Deck Builder</h2>
 			<img class="screenshot" src="css/pictures/deck_builder_screenshot.png" alt="Deck builder main screen">
-			<img class="screenshot" src="css/pictures/deck_builder_deck_screenshot.png" alt="Deck builder deck">
-			<a class="project_link" href="https://dkaf.github.io/mtg_react_capstone/">MTG Deck Builder</a>
+			<a class="project_link" href="https://dkaf.github.io/mtg_react_capstone/">Live</a>
 			<div class="section_div technology_div">
 				<h3 class="section_title">Techologies used</h3>
 				<ul class="technology_list">
@@ -45,10 +45,10 @@
 		<div class="project_div" id="satellite_app">
 			<h2 class="project_title" id="satellite_app_title">Satellite Image Timeline</h2>
 			<img class="screenshot" id="satellite_app_screenshot" src="css/pictures/satellite_timeline_screenshot.png" alt="satellite_timeline_screenshot">
-			<a class="project_link" href="https://dkaf.github.io/satellite-image-app/">Satellite Image Timeline</a>
+			<a class="project_link" href="https://dkaf.github.io/satellite-image-app/">Live</a>
 			<h3 class="section_title">Technologies Used</h3>
 			<ul class="technology_list">
-				<li class="technology_list_item">Jquery</li>
+				<li class="technology_list_item">jQuery</li>
 				<li class="technology_list_item">NASA Api</li>
 				<li class="technology_list_item">Google Maps Api</li>
 			</ul>
@@ -60,7 +60,7 @@
 		<div class="project_div" id="food_app">
 			<h2 class="project_title" id="food_app_title">Food Nutrition App</h2>
 			<img class="screenshot" id="food_app_screenshot" src="css/pictures/food_nutrition_quiz.png" alt="food_quiz_screenshot">
-			<a class="project_link" href="#">Food Nutrition App</a>
+			<a class="project_link" href="#">Live</a>
 			<h3 class="section_title">Technologies Used</h3>
 			<ul class="technology_list">
 				<li class="technology_list_item">React/React Slingshot</li>

@@ -16,10 +16,14 @@ a :active {
 }
 .landing_page{
 	height: 100%;
-	min-height: 100%:
+	min-height: 100%;
+  text-align: center;
+}
+#name_container {
+  margin: 0 auto;
+  width: 400px;
 }
 #name {
-  text-align: left;
   font-size: 8em;
   margin: 0;
   padding-top: 5%;
@@ -58,7 +62,8 @@ a :active {
 }
 /*Project*/
 .screenshot {
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 .project_div {
   font-size: 1em;
@@ -98,64 +103,4 @@ a :active {
 }
 .description {
   font-size: 1.4em;
-}
-/*Keyframes*/
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-@-webkit-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-/*Transitions*/
-.m-scene {
-  /** Basic styles for an animated element */
-  /** An element that fades in */
-  /** An element that fades in and slides up */
-  /** An element that fades in and slides from the right */
-}
-.m-scene .scene_element {
-  -webkit-animation-duration: 0.25s;
-  -webkit-transition-timing-function: ease-in;
-  -webkit-animation-fill-mode: both;
-  animation-duration: 0.25s;
-  transition-timing-function: ease-in;
-  animation-fill-mode: both;
-}
-.m-scene .scene_element--fadein {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-.m-scene .scene_element--fadeinup {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-.m-scene .scene_element--fadeinright {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-}
-.m-scene.is-exiting .scene_element {
-  -webkit-animation-direction: alternate-reverse;
-  animation-direction: alternate-reverse;
 }
