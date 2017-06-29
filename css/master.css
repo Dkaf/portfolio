@@ -22,7 +22,7 @@ a :active {
 }
 #name_container {
   margin: 0 auto;
-  width: 400px;
+  width: 871px;
 }
 #name {
   font-size: 120px;
@@ -87,7 +87,8 @@ a :active {
 .project_link {
   font-size: 1.4em;
   color: black;
-  display: block;
+  display: inline;
+  margin-right: 15px;
 }
 .section_title {
   font-size: 1.7em;
@@ -98,6 +99,7 @@ a :active {
 .technology_list {
   font-size: 1.4em;
   list-style: none;
+  padding: 0;
 }
 .description_div {
   margin: 0 auto;
